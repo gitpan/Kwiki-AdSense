@@ -1,7 +1,7 @@
 package Kwiki::AdSense;
 use Kwiki::Plugin -Base;
 use mixin 'Kwiki::Installer';
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 const class_id => 'adsense';
 const config_file => 'adsense.yaml';
